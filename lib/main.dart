@@ -36,11 +36,11 @@ class MyPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('ini judul'),
+        title: const Text('ini judul'),
       ),
       body: Container(
         color: Colors.greenAccent,
-        child: Center(
+        child: const Center(
             child: Text(
               'ini body',
               style: TextStyle(
